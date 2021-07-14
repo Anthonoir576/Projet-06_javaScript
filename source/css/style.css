@@ -46,7 +46,8 @@ main #affichage {
   height: 500px;
   border: 4px black;
   border-style: dashed solid;
-  background-color: rgba(0, 0, 0, 0.055);
+  background: rgba(0, 0, 0, 0.055);
+  transition: background 2s linear;
 }
 main #color {
   text-align: center;
